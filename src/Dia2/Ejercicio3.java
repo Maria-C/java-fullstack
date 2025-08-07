@@ -16,7 +16,7 @@ public class Ejercicio3 {
             System.out.print("Ingrese su capital: ");
             String capital = sc.nextLine().trim();
 
-            // Guardar todo en minúsculas para búsqueda insensible a mayúsculas
+            // Guarda el ingreso en minúsculas para búsqueda insensible a mayúsculas
             capitales.put(pais.toLowerCase(), capital);
         }
 
